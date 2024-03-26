@@ -9,7 +9,7 @@ services:
     image: mariadb:11.3
     restart: unless-stopped
     ports:
-      - "3307:3307"
+      - "3306:3306"
     environment:
       MARIADB_DATABASE: demo
       MARIADB_USER: demo
